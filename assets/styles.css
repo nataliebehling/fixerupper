@@ -1,29 +1,95 @@
 .container {
-    width: 862px;
     margin: 0 auto;
+    width: 378px;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: brandon-grotesque, sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size:40px;
+    font-size: 27px;
+    color: #707070;
 }
 
 h3 {
     font-family: minion-3, serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 17px;
+    color: #707070;
 }
 
-p{
+h4 {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 19px;
+    color: #707070;
+}
+
+p {
     font-family: lato, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 18px;
+    font-size: 17px;
+    margin: 0 auto;
+    color: #707070;
+    margin-bottom: 17px;
+    line-height: 27px;
+}
+
+#chip-quote{
+    font-style: italic;
 }
 
 
-.section-header{
-    width:100%;
+.section-header {
+    width: 100%;
+    margin-top: 20px;
 }
+
+.polaroids-2 {
+    display: flex;
+}
+
+
+.videos {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.podcast {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Polaroid Settings Two Next to Each Other */
+#polaroid-section-1-1,
+#polaroid-section-1-2,
+#polaroid-section-4-1,
+#polaroid-section-4-2 {
+    width: 170px;
+    margin: 0 auto;
+    margin-top: -12px;
+}
+
+/* Polaroid Settings One on Own */
+#polaroid-section-2-1,
+#polaroid-section-2-2,
+#polaroid-section-3-1,
+#polaroid-section-3-2,
+#polaroid-section-5-1,
+#polaroid-section-6-1,
+#polaroid-section-6-2,
+#polaroid-section-7-1,
+#polaroid-section-7-2 {
+    width: 170px;
+    margin-left: 107px;
+    margin-top: -12px;
+}
+
+
+
+
+500 to 950 950 to infinity
