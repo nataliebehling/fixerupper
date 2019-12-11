@@ -1,3 +1,7 @@
+.body{
+    margin: 0;
+}
+
 .container {
     margin: 0 auto;
     width: 378px;
@@ -39,11 +43,45 @@ p {
     line-height: 27px;
 }
 
-#chip-quote{
+
+.section-header {
+    width: 100%;
+}
+
+.wood{
+    visibility: hidden;
+}
+
+.content {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.videos {
+    width: 100%;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+iframe {
+    width: 100%;
+    height: 215px;
+    margin-top: -15px;
+    margin-bottom: -15px;
+
+}
+
+.podcast {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#chip-quote {
     font-style: italic;
 }
 
-blockquote{
+blockquote {
     font-family: brandon-grotesque, sans-serif;
     font-weight: 600;
     font-style: normal;
@@ -52,26 +90,8 @@ blockquote{
     color: #211D1A;
 }
 
-
-.section-header {
-    width: 100%;
-    margin-top: 20px;
-}
-
 .polaroids-2 {
     display: flex;
-}
-
-
-.videos {
-    width: 100%;
-    margin-bottom: 30px;
-    margin-top: 30px;
-}
-
-.podcast {
-    width: 100%;
-    margin-bottom: 10px;
 }
 
 /* Polaroid Settings Two Next to Each Other */
@@ -95,11 +115,100 @@ blockquote{
 #polaroid-section-7-1,
 #polaroid-section-7-2 {
     width: 170px;
-    margin-left: 107px;
-    margin-top: -12px;
+    margin: 0 auto;
+    margin-top: -5px;
 }
 
 
 
 
-500 to 950 950 to infinity
+@media only screen and (min-width:500px) and (max-width:768px) {}
+
+@media only screen and (min-width:960px) {
+
+    .container {
+        width: 100%;
+    }
+
+    .header {
+        position: relative;
+    }
+
+    .title-article {
+        position: absolute;
+        top: 50px;
+        left: 500px;
+        width: 400px;
+    }
+
+
+    .section-header-image {
+        width: 100%;
+    }
+    
+    .wood{
+        visibility: visible;
+        width:100%
+    }
+
+    .content {
+        width: 862px;
+        margin: 0 auto;
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+    
+      blockquote {
+        font-size: 35px;
+        line-height: 50px;
+    }
+    
+    iframe {
+        width: 100%;
+        height: 500px;
+    }
+
+
+    /*
+    .sidebyside{
+        display:flex;
+    }
+*/
+
+
+    .polaroids-2 {
+        display: inline;
+    }
+
+    #polaroid-section-1-1,
+    #polaroid-section-1-2,
+    #polaroid-section-4-1,
+    #polaroid-section-4-2,
+    #polaroid-section-2-1,
+    #polaroid-section-2-2,
+    #polaroid-section-3-1,
+    #polaroid-section-3-2,
+    #polaroid-section-5-1,
+    #polaroid-section-6-1,
+    #polaroid-section-6-2,
+    #polaroid-section-7-1,
+    #polaroid-section-7-2 {
+        width: 240px;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
