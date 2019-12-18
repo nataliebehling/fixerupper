@@ -86,13 +86,13 @@ iframe {
     height: 215px;
     margin-top: -15px;
     margin-bottom: -15px;
-
 }
 
 .podcast {
     width: 100%;
     margin-bottom: 100px;
     margin: 0 auto;
+
 }
 
 video {
@@ -123,6 +123,8 @@ h6 {
 
 #chip-quote {
     font-style: italic;
+color: saddlebrown;
+	background-color: bisque;
 }
 
 blockquote {
@@ -235,6 +237,7 @@ blockquote {
 
     .polaroids-2 {
         display: inline;
+		
     }
 
     #polaroid-section-1-1,
@@ -252,6 +255,7 @@ blockquote {
     #polaroid-section-7-2 {
         width: 200px;
         margin-top: -5px;
+		 transform: rotate(7deg);	
 
     }
 
@@ -266,6 +270,7 @@ blockquote {
     #polaroid-section-7-2 {
 
         margin-left: 150px;
+		 transform: rotate(-7deg);	
     }
 
 }
@@ -302,19 +307,22 @@ blockquote {
     .wood {
         visibility: visible;
         width: 100%;
-        margin: 0;
+        margin: 0;	
     }
 
     .jordan .polaroids-2 {
         display: none;
+		visibility: hidden;
     }
 
     .jordan .polaroids-1 {
         display: none;
+		;
     }
 
     .polaroid-desktop {
         display: inline;
+		
     }
 
     #top-wood {
@@ -357,7 +365,11 @@ blockquote {
 
     .polaroids-2 {
         display: inline;
+		
     }
+	.polaroids-1{
+/*		visibility: hidden;*/
+	}
 
     #polaroid-section-1-1,
     #polaroid-section-1-2,
@@ -369,7 +381,7 @@ blockquote {
     #polaroid-section-3-2,
     #polaroid-section-5-1,
     #polaroid-section-6-1,
-    #polaroid-section-6-2,
+    #polaroid-section-4-2,
     #polaroid-section-7-1,
     #polaroid-section-7-2 {
         width: 210px;
@@ -377,30 +389,62 @@ blockquote {
 
     }
 
-
+#polaroid-section-1-2,
+#polaroid-section-2-2
+#polaroid-section-3-2,
+#polaroid-section-4-2,
+#polaroid-section-5-2,
+#polaroid-section-6-2,
+#polaroid-section-7-2{
+	 transform: rotate(-7deg);	
+	}
+	
+	#polaroid-section-1-1{
+	 transform: rotate(7deg);
+		
+	}
+	
     #polaroid-section-2-1 {
         margin-top: 60px;
+		 transform: rotate(7deg);
+		
     }
 
     #polaroid-section-2-2 {
         margin-top: 600px;
+		 transform: rotate(-7deg); 
     }
 
     #polaroid-section-3-1 {
         margin-top: 80px;
+		 transform: rotate(7deg);
+		
     }
-
+	
+	#polaroid-section-3-2{
+	transform: rotate(-7deg);	
+	}
+    
     #polaroid-section-4-1 {
         margin-top: 90px;
+		 transform: rotate(7deg);
+		
     }
 
     #polaroid-section-5-1 {
         margin-top: 190px;
+		 transform: rotate(7deg);
+		
     }
+	#polaroid-section-6-1{
+	transform: rotate(7deg);	
+	}
 
-    #polaroid-section-7-2 {
+    #polaroid-section-7-1 {
         margin-top: -90px;
+		 transform: rotate(7deg);
     }
+	
 
 
 
@@ -417,4 +461,6 @@ blockquote {
 
 
 
-}
+
+
+
